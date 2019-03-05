@@ -1,7 +1,13 @@
 use_frameworks!
-target 's3upload' do
+
+target 'ScannerAlt' do
   pod 'AWSCore'
 	pod 'AWSS3'
 	pod 'AWSCognito'
+end
 
+target 'Scanner' do
+  pod 'AWSCore'
+  pod 'AWSS3'
+  pod 'AWSCognito'
 end

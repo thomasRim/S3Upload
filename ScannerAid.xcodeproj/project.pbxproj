@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220AA59AC03D27C9C64D8736 /* Pods_Scanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B780ECFB7E4C44482F0BA854 /* Pods_Scanner.framework */; };
+		5180B1A40CBAAE0FD9935EF4 /* Pods_ScannerAlt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22092DBDE2B315A710E7926B /* Pods_ScannerAlt.framework */; };
+		7A734EFF222EE8BE005A150F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC61CAA2229AB1500B14F95 /* AppDelegate.swift */; };
+		7A734F00222EE8C9005A150F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC61CAC2229AB1500B14F95 /* ViewController.swift */; };
+		7A734F01222EE8CB005A150F /* httpUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC61CC32229C8B300B14F95 /* httpUpload.swift */; };
+		7A734F02222EE8CD005A150F /* URL+relativePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828DB1C3222D67A9002AA502 /* URL+relativePath.swift */; };
+		7A734F03222EE8CF005A150F /* awsUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC61CC52229C8BF00B14F95 /* awsUpload.swift */; };
+		7A734F04222EE8D1005A150F /* NotificantionNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828DB1C1222D4EA2002AA502 /* NotificantionNames.swift */; };
+		7A734F05222EE8D6005A150F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC61CB12229AB1700B14F95 /* Assets.xcassets */; };
+		7A734F08222EE8DC005A150F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC61CB32229AB1700B14F95 /* LaunchScreen.storyboard */; };
+		7A734F09222EE8E6005A150F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC61CAE2229AB1500B14F95 /* Main.storyboard */; };
 		7AC61CAB2229AB1500B14F95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC61CAA2229AB1500B14F95 /* AppDelegate.swift */; };
 		7AC61CAD2229AB1500B14F95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC61CAC2229AB1500B14F95 /* ViewController.swift */; };
 		7AC61CB02229AB1500B14F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC61CAE2229AB1500B14F95 /* Main.storyboard */; };
@@ -14,13 +25,18 @@
 		7AC61CB52229AB1700B14F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC61CB32229AB1700B14F95 /* LaunchScreen.storyboard */; };
 		7AC61CC42229C8B400B14F95 /* httpUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC61CC32229C8B300B14F95 /* httpUpload.swift */; };
 		7AC61CC62229C8BF00B14F95 /* awsUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC61CC52229C8BF00B14F95 /* awsUpload.swift */; };
-		AEDEEEE355433113DA96EE5E /* Pods_s3upload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05606A76A4A5E72870076A6 /* Pods_s3upload.framework */; };
+		828DB1C2222D4EA2002AA502 /* NotificantionNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828DB1C1222D4EA2002AA502 /* NotificantionNames.swift */; };
+		828DB1C4222D67A9002AA502 /* URL+relativePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828DB1C3222D67A9002AA502 /* URL+relativePath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2564D6FB094B379287F74B80 /* Pods-s3upload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-s3upload.debug.xcconfig"; path = "Target Support Files/Pods-s3upload/Pods-s3upload.debug.xcconfig"; sourceTree = "<group>"; };
-		47DF6019FECDD5CBC5FBF35D /* Pods-s3upload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-s3upload.release.xcconfig"; path = "Target Support Files/Pods-s3upload/Pods-s3upload.release.xcconfig"; sourceTree = "<group>"; };
-		7AC61CA72229AB1500B14F95 /* s3upload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = s3upload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E388CC356F3A47CFEF6722 /* Pods-ScannerAlt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerAlt.release.xcconfig"; path = "Target Support Files/Pods-ScannerAlt/Pods-ScannerAlt.release.xcconfig"; sourceTree = "<group>"; };
+		1CCB654E0F52841AF27CAC61 /* Pods-Scanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scanner.release.xcconfig"; path = "Target Support Files/Pods-Scanner/Pods-Scanner.release.xcconfig"; sourceTree = "<group>"; };
+		22092DBDE2B315A710E7926B /* Pods_ScannerAlt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScannerAlt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A43D919222EE7C3002CE988 /* Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A43D927222EE7C4002CE988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A709155222EE109009DB7CE /* ScannerAlt copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ScannerAlt copy-Info.plist"; path = "/Users/vevdokimov/Projects/Personal/S3Upload/s3upload/ScannerAlt copy-Info.plist"; sourceTree = "<absolute>"; };
+		7AC61CA72229AB1500B14F95 /* Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC61CAA2229AB1500B14F95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AC61CAC2229AB1500B14F95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7AC61CAF2229AB1500B14F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,35 +45,58 @@
 		7AC61CB62229AB1700B14F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AC61CC32229C8B300B14F95 /* httpUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = httpUpload.swift; sourceTree = "<group>"; };
 		7AC61CC52229C8BF00B14F95 /* awsUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = awsUpload.swift; sourceTree = "<group>"; };
-		C05606A76A4A5E72870076A6 /* Pods_s3upload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_s3upload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		828DB1C1222D4EA2002AA502 /* NotificantionNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificantionNames.swift; sourceTree = "<group>"; };
+		828DB1C3222D67A9002AA502 /* URL+relativePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+relativePath.swift"; sourceTree = "<group>"; };
+		99C1FA6ECB44797FCF7A4835 /* Pods-Scanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scanner.debug.xcconfig"; path = "Target Support Files/Pods-Scanner/Pods-Scanner.debug.xcconfig"; sourceTree = "<group>"; };
+		B780ECFB7E4C44482F0BA854 /* Pods_Scanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46157ED1BE23871DDF47CD8 /* Pods-ScannerAlt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerAlt.debug.xcconfig"; path = "Target Support Files/Pods-ScannerAlt/Pods-ScannerAlt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7A43D916222EE7C3002CE988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220AA59AC03D27C9C64D8736 /* Pods_Scanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AC61CA42229AB1500B14F95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDEEEE355433113DA96EE5E /* Pods_s3upload.framework in Frameworks */,
+				5180B1A40CBAAE0FD9935EF4 /* Pods_ScannerAlt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A43D91A222EE7C3002CE988 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				7A43D927222EE7C4002CE988 /* Info.plist */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
 		7AC61C9E2229AB1500B14F95 = {
 			isa = PBXGroup;
 			children = (
 				7AC61CA92229AB1500B14F95 /* s3upload */,
+				7A43D91A222EE7C3002CE988 /* Scanner */,
 				7AC61CA82229AB1500B14F95 /* Products */,
 				FDDCF55F1FC6444EFDA9D256 /* Pods */,
 				8440215591A32DF54F98828D /* Frameworks */,
+				7A709155222EE109009DB7CE /* ScannerAlt copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		7AC61CA82229AB1500B14F95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AC61CA72229AB1500B14F95 /* s3upload.app */,
+				7AC61CA72229AB1500B14F95 /* Scanner.app */,
+				7A43D919222EE7C3002CE988 /* Scanner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,7 +107,9 @@
 				7AC61CAA2229AB1500B14F95 /* AppDelegate.swift */,
 				7AC61CAC2229AB1500B14F95 /* ViewController.swift */,
 				7AC61CC32229C8B300B14F95 /* httpUpload.swift */,
+				828DB1C3222D67A9002AA502 /* URL+relativePath.swift */,
 				7AC61CC52229C8BF00B14F95 /* awsUpload.swift */,
+				828DB1C1222D4EA2002AA502 /* NotificantionNames.swift */,
 				7AC61CAE2229AB1500B14F95 /* Main.storyboard */,
 				7AC61CB12229AB1700B14F95 /* Assets.xcassets */,
 				7AC61CB32229AB1700B14F95 /* LaunchScreen.storyboard */,
@@ -80,7 +121,8 @@
 		8440215591A32DF54F98828D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C05606A76A4A5E72870076A6 /* Pods_s3upload.framework */,
+				B780ECFB7E4C44482F0BA854 /* Pods_Scanner.framework */,
+				22092DBDE2B315A710E7926B /* Pods_ScannerAlt.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,8 +130,10 @@
 		FDDCF55F1FC6444EFDA9D256 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2564D6FB094B379287F74B80 /* Pods-s3upload.debug.xcconfig */,
-				47DF6019FECDD5CBC5FBF35D /* Pods-s3upload.release.xcconfig */,
+				99C1FA6ECB44797FCF7A4835 /* Pods-Scanner.debug.xcconfig */,
+				1CCB654E0F52841AF27CAC61 /* Pods-Scanner.release.xcconfig */,
+				E46157ED1BE23871DDF47CD8 /* Pods-ScannerAlt.debug.xcconfig */,
+				07E388CC356F3A47CFEF6722 /* Pods-ScannerAlt.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -97,9 +141,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7AC61CA62229AB1500B14F95 /* s3upload */ = {
+		7A43D918222EE7C3002CE988 /* Scanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AC61CB92229AB1700B14F95 /* Build configuration list for PBXNativeTarget "s3upload" */;
+			buildConfigurationList = 7A43D928222EE7C4002CE988 /* Build configuration list for PBXNativeTarget "Scanner" */;
+			buildPhases = (
+				6CA572459791FDF97087F530 /* [CP] Check Pods Manifest.lock */,
+				7A43D915222EE7C3002CE988 /* Sources */,
+				7A43D916222EE7C3002CE988 /* Frameworks */,
+				7A43D917222EE7C3002CE988 /* Resources */,
+				E2D38F70845C8C54C76916FE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scanner;
+			productName = Scanner;
+			productReference = 7A43D919222EE7C3002CE988 /* Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AC61CA62229AB1500B14F95 /* ScannerAlt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AC61CB92229AB1700B14F95 /* Build configuration list for PBXNativeTarget "ScannerAlt" */;
 			buildPhases = (
 				9573FB4787B12E8F81D8439E /* [CP] Check Pods Manifest.lock */,
 				7AC61CA32229AB1500B14F95 /* Sources */,
@@ -111,9 +174,9 @@
 			);
 			dependencies = (
 			);
-			name = s3upload;
+			name = ScannerAlt;
 			productName = s3upload;
-			productReference = 7AC61CA72229AB1500B14F95 /* s3upload.app */;
+			productReference = 7AC61CA72229AB1500B14F95 /* Scanner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,12 +189,15 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Vladimir Evdokimov";
 				TargetAttributes = {
+					7A43D918222EE7C3002CE988 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					7AC61CA62229AB1500B14F95 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 7AC61CA22229AB1500B14F95 /* Build configuration list for PBXProject "s3upload" */;
+			buildConfigurationList = 7AC61CA22229AB1500B14F95 /* Build configuration list for PBXProject "ScannerAid" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,12 +210,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AC61CA62229AB1500B14F95 /* s3upload */,
+				7AC61CA62229AB1500B14F95 /* ScannerAlt */,
+				7A43D918222EE7C3002CE988 /* Scanner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7A43D917222EE7C3002CE988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A734F05222EE8D6005A150F /* Assets.xcassets in Resources */,
+				7A734F09222EE8E6005A150F /* Main.storyboard in Resources */,
+				7A734F08222EE8DC005A150F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AC61CA52229AB1500B14F95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,10 +248,10 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-s3upload/Pods-s3upload-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ScannerAlt/Pods-ScannerAlt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito-iOS10.0/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore-iOS10.0/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3-iOS10.0/AWSS3.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -186,7 +263,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-s3upload/Pods-s3upload-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScannerAlt/Pods-ScannerAlt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CA572459791FDF97087F530 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9573FB4787B12E8F81D8439E /* [CP] Check Pods Manifest.lock */ = {
@@ -204,23 +303,64 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-s3upload-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ScannerAlt-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E2D38F70845C8C54C76916FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scanner/Pods-Scanner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito-iOS11.0/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore-iOS11.0/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3-iOS11.0/AWSS3.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Scanner/Pods-Scanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7A43D915222EE7C3002CE988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A734F01222EE8CB005A150F /* httpUpload.swift in Sources */,
+				7A734EFF222EE8BE005A150F /* AppDelegate.swift in Sources */,
+				7A734F00222EE8C9005A150F /* ViewController.swift in Sources */,
+				7A734F04222EE8D1005A150F /* NotificantionNames.swift in Sources */,
+				7A734F03222EE8CF005A150F /* awsUpload.swift in Sources */,
+				7A734F02222EE8CD005A150F /* URL+relativePath.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AC61CA32229AB1500B14F95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7AC61CAD2229AB1500B14F95 /* ViewController.swift in Sources */,
 				7AC61CC42229C8B400B14F95 /* httpUpload.swift in Sources */,
+				828DB1C2222D4EA2002AA502 /* NotificantionNames.swift in Sources */,
 				7AC61CC62229C8BF00B14F95 /* awsUpload.swift in Sources */,
+				828DB1C4222D67A9002AA502 /* URL+relativePath.swift in Sources */,
 				7AC61CAB2229AB1500B14F95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +387,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7A43D929222EE7C4002CE988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C1FA6ECB44797FCF7A4835 /* Pods-Scanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = T3KWBLUU3X;
+				INFOPLIST_FILE = Scanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.orthogenic.practitioner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = OrthoProvisioningDistributionProfile2;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A43D92A222EE7C4002CE988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCB654E0F52841AF27CAC61 /* Pods-Scanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = T3KWBLUU3X;
+				INFOPLIST_FILE = Scanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.orthogenic.practitioner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = OrthoProvisioningDistributionProfile2;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		7AC61CB72229AB1700B14F95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -298,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -353,7 +537,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -365,18 +549,21 @@
 		};
 		7AC61CBA2229AB1700B14F95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2564D6FB094B379287F74B80 /* Pods-s3upload.debug.xcconfig */;
+			baseConfigurationReference = E46157ED1BE23871DDF47CD8 /* Pods-ScannerAlt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 675DXBFCG8;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michele Peters (66FZ7YKGMQ)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = s3upload/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RootHome.s3upload;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orthogeniclab.Scanner-alt";
+				PRODUCT_NAME = Scanner;
+				PROVISIONING_PROFILE_SPECIFIER = "Scanner Alt AdHoc Profile";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -384,18 +571,21 @@
 		};
 		7AC61CBB2229AB1700B14F95 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47DF6019FECDD5CBC5FBF35D /* Pods-s3upload.release.xcconfig */;
+			baseConfigurationReference = 07E388CC356F3A47CFEF6722 /* Pods-ScannerAlt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 675DXBFCG8;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michele Peters (66FZ7YKGMQ)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = s3upload/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RootHome.s3upload;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orthogeniclab.Scanner-alt";
+				PRODUCT_NAME = Scanner;
+				PROVISIONING_PROFILE_SPECIFIER = "Scanner Alt AdHoc Profile";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -404,7 +594,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7AC61CA22229AB1500B14F95 /* Build configuration list for PBXProject "s3upload" */ = {
+		7A43D928222EE7C4002CE988 /* Build configuration list for PBXNativeTarget "Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A43D929222EE7C4002CE988 /* Debug */,
+				7A43D92A222EE7C4002CE988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AC61CA22229AB1500B14F95 /* Build configuration list for PBXProject "ScannerAid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AC61CB72229AB1700B14F95 /* Debug */,
@@ -413,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AC61CB92229AB1700B14F95 /* Build configuration list for PBXNativeTarget "s3upload" */ = {
+		7AC61CB92229AB1700B14F95 /* Build configuration list for PBXNativeTarget "ScannerAlt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AC61CBA2229AB1700B14F95 /* Debug */,

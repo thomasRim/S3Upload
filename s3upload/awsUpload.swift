@@ -32,6 +32,17 @@ class AwsUpload {
         shared.upload(fileName: fileName, filePath: filePath, complete: complete)
     }
     
+    private func notifyProgress(_ bytesSent: Int64, totalBytesSent: Int64, totalBytesExpectedToSend: Int64) {
+        DispatchQueue.main.async(execute: {
+            NotificationCenter.default.post(name: NSNotification.Name.file_upload_percentage,
+                                            object: nil, userInfo: [
+                                                "bytesSent": bytesSent
+                                                , "totalBytesSent": totalBytesSent
+                                                , "totalBytesExpectedToSend": totalBytesExpectedToSend
+                ])
+        })
+    }
+    
     private func upload(fileName:String, filePath:URL, complete:((Any?,Error?)->())?) {
         let transferManager: AWSS3TransferManager = AWSS3TransferManager.default()
         
@@ -40,13 +51,24 @@ class AwsUpload {
         uploadRequest.key = fileName
         uploadRequest.body = filePath
         
+        uploadRequest.uploadProgress = {(bytesSent: Int64, totalBytesSent: Int64, totalBytesExpectedToSend: Int64) in
+            if (totalBytesExpectedToSend == 0) {
+                let progress: Float = 0
+                self.notifyProgress(bytesSent, totalBytesSent: totalBytesSent, totalBytesExpectedToSend: totalBytesExpectedToSend)
+                return;
+            }
+            self.notifyProgress(bytesSent, totalBytesSent: totalBytesSent, totalBytesExpectedToSend: totalBytesExpectedToSend)
+        }
+        
+
+        
         transferManager.upload(uploadRequest).continueWith(block: { (task) -> Any? in
             if let error = task.error {
                 print(error)
                 complete?(nil,error)
             }
             if let result = task.result {
-                print(result)
+//                print(result)
                 complete?(result,nil)
             }
             return nil
